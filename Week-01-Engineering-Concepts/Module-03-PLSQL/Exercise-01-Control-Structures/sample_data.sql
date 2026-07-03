@@ -1,0 +1,13 @@
+-- Insert Customers
+INSERT INTO Customers VALUES (1, 'John', 65, 12000, 'FALSE');
+INSERT INTO Customers VALUES (2, 'Alice', 45, 8000, 'FALSE');
+INSERT INTO Customers VALUES (3, 'Robert', 70, 15000, 'FALSE');
+INSERT INTO Customers VALUES (4, 'Emma', 30, 5000, 'FALSE');
+
+-- Insert Loans
+INSERT INTO Loans VALUES (101, 1, 8.5, SYSDATE + 20);
+INSERT INTO Loans VALUES (102, 2, 9.0, SYSDATE + 40);
+INSERT INTO Loans VALUES (103, 3, 7.5, SYSDATE + 10);
+INSERT INTO Loans VALUES (104, 4, 8.0, SYSDATE + 25);
+
+COMMIT;
