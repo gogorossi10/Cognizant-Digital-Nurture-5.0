@@ -8,9 +8,13 @@ public class LoggingExample {
 
     public static void main(String[] args) {
 
-        logger.error("This is an error message");
+        logger.info("Application started");
 
         logger.warn("This is a warning message");
+
+        logger.error("This is an error message");
+
+        logger.info("Application finished");
 
     }
 }
