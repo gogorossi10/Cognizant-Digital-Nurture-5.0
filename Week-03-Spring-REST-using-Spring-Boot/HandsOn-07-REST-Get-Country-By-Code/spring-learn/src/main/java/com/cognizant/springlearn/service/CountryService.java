@@ -24,3 +24,9 @@ public class CountryService {
             if (country.getCode().equalsIgnoreCase(code)) {
                 return country;
             }
+
+        }
+
+        return null;
+    }
+}
