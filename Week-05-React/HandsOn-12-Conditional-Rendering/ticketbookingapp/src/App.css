@@ -1,0 +1,29 @@
+button{
+
+    padding:10px;
+
+    width:120px;
+
+    background-color:green;
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+
+}
+
+table{
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+th,td{
+
+    padding:10px;
+
+}
